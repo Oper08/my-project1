@@ -1,0 +1,42 @@
+.tort{
+   width: 100px;
+   height: 100px;
+   background-color: #3498db;
+   animation: ww 4s infinite linear;
+   
+}
+
+@keyframes ww {
+   from {
+       transform: rotate(0deg);
+   }
+   to {
+       transform: rotate(360deg);
+   }
+}
+ 
+
+ .tiktort{
+   border-radius: 0.1px;
+   width: 500px;
+   height: 50px;
+   border: solid;
+ }
+ .shar{
+    border-radius: 50px;
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    animation-name: shar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes shar{
+   0%{
+      
+      width: 10%;
+      }
+      100%{
+      width: 15%;   
+      }
+ }
